@@ -43,9 +43,7 @@ The application contains a regression analysis between Sepal Length and Petal Le
 
 ------------------------------------------------------------------------
 
-## Github and Code   
+## Github and Code
 
-The ui.R and server.R code can be found here:  
-https://github.com/bellademo/Course-9-Project.git  
-
-
+The ui.R and server.R code can be found here:\
+<https://github.com/bellademo/Course-9-Project.git>
