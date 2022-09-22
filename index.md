@@ -11,7 +11,7 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 github      : 
   user: bellademo
-  repo: slidifyProject
+  repo: bellademo.github.io
 ---
 
 ## Developing Data Products Project
