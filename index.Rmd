@@ -36,11 +36,29 @@ github      :
 
 ------------------------------------------------------------------------
 
-## Relationship Between Sepal Length and Petal Length in Various Iris Species
+## Iris Data Set Information
+
+This data set details the measurements of sepal length/width and petal length/width of three different species of Iris: setosa, versicolor, and virginica.   
+
+The sepal and petal length variables were extracted for this analysis.
+
+---
+
+## Relationship Between Sepal Length and Petal Length
+
+Through exploratory analaysis, we can see that there is a general positive relationship between Sepal Length and Petal Length in all of the species. We can also see a pattern with the setosa species having relatively shorter lengths compared to the longer lengths associated with the virignica species. 
+
+```{r, echo = FALSE}
+ggplot(iris, aes(x=Sepal.Length, y=Petal.Length, fill= Species)) +
+  geom_bar(stat="identity", position=position_dodge())
+
+```
+---
+## Shiny Application
 
 The application: <https://bella789.shinyapps.io/Course-9-Project/>
 
-This application looks at the relationship between Sepal Length and Petal Length in different species of Irises: setosa, veriscolor, and virginica.
+This application looks at the relationship between Sepal Length and Petal Length in different species of Irises: setosa, veriscolor, and virginica. It allows us to look deeper into how these variables are associated in the context of certain species. 
 
 The application contains a regression analysis between Sepal Length and Petal Length for each species respectively. Additionally, it provides a summary containing more detailed information about the relationship.
 
